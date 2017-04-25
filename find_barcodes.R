@@ -1,3 +1,5 @@
+#test for Paul W
+
 setwd("/Users/jimblotter/Desktop/Grad_School/Data_Analysis/barcodes_pre_analysis")
 barcodes_file <- read.csv("barcodes.csv")  # read csv file 
 barcodes <- data.frame(barcodes_file)
