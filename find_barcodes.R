@@ -1,4 +1,5 @@
 #test for Paul W
+#another test for Paul
 
 setwd("/Users/jimblotter/Desktop/Grad_School/Data_Analysis/barcodes_pre_analysis")
 barcodes_file <- read.csv("barcodes.csv")  # read csv file 
