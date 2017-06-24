@@ -18,8 +18,9 @@ cp -r $WORKDIR/* $SCRDIR
 cd $SCRDIR
 #
 # run the program
-/uufs/chpc.utah.edu/common/home/u6009817/miniconda2/bin/ipyrad -p params-erisor.txt -s 7
+/uufs/chpc.utah.edu/common/home/u6009817/miniconda2/bin/ipyrad -p params-erisor.txt -s 7 -f
 #
 # transfer output and remove scratch
-rsync -vz erisor.vcf /uufs/chpc.utah.edu/common/home/u6009817/new_eri/
+cd ..
+rsync -vz $SCRDIR/erisor* /uufs/chpc.utah.edu/common/home/u6009817/new_eri/
 #rm -r $SCRDIR
