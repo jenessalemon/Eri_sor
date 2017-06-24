@@ -19,7 +19,7 @@ cp -r $WORKDIR/* $SCRDIR
 cd $SCRDIR
 #
 # run the program
-/uufs/chpc.utah.edu/common/home/u6009817/miniconda2/bin/ipyrad -p params-filter.txt -s 2
+/uufs/chpc.utah.edu/common/home/u6009817/miniconda2/bin/ipyrad -p params-filter.txt -s 7
 #
 # transfer output and remove scratch
 cd ..
