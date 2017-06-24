@@ -22,5 +22,5 @@ cd $SCRDIR
 #
 # transfer output and remove scratch
 cd ..
-rsync -vz *.str /uufs/chpc.utah.edu/common/home/u6009817/new_eri/
+rsync -vz *.vcf /uufs/chpc.utah.edu/common/home/u6009817/new_eri/
 #rm -r $SCRDIR
